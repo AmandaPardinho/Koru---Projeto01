@@ -1,12 +1,12 @@
 # **Koru - Projeto 01**
 
 ## **Resumo**
----
+
 
 >Primeiro arquivo HTML criado no curso de front-end da Escola Korú.
 ---
 ## **Descrição**
----
+
 >Arquivo HTML criado na primeira aula de Desenvolvimento de Software da Escola Korú. Nessa aula, houve a demonstração de algumas das principais tags HTML e suas funções.
 ---
 
