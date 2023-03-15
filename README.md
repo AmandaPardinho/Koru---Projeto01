@@ -1,6 +1,6 @@
 # **Koru - Projeto 01**
 
-## **Resumo**
+## **Resumo** 
 
 
 >Primeiro arquivo HTML criado no curso de front-end da Escola Korú.
