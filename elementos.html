@@ -1,11 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <!-- tag head: usada para colocar metatags, metadados => informações sobre a página-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/elementos.css">
     <title>Elementos HTML</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        body{
+            margin: 0;
+            padding: 0;
+        }
+
+        header{
+            background-color: #bbb;
+            margin: 0;
+        }
+
+        nav ul{
+            list-style: none;
+            display: block;
+            margin: 0;
+            padding: 16px;
+        }
+
+        nav ul li{
+            display: inline-block;
+            width: 32%;
+            text-align: center;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color: #333;
+        }
+
+        section, article{
+            display: inline-block;
+            width: 45%;
+            margin: 2%;
+            background-color: #cacaca;
+            vertical-align: top;
+            padding: 24px;
+            min-height: 400px;
+        }
+
+        img{
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <!-- conteúdo que será visível para o usuário -->
@@ -17,7 +65,7 @@
     <header>
         <!-- introdução ou navegação -->
     </header>
-    <section>
+    <section class="modelo">
         <!-- seção de conteúdo -->
         <!-- tags de texto -->
         <h1 id="alguma">Título</h1> <!-- pode ter somente um h1 por página (para ficar semanticamente correto)-->
@@ -31,13 +79,17 @@
         <mark>Destacado</mark>
         <del>Riscado</del>
     </section>
-    <section>
+    <section id="contato" class="modelo">
+        <h2>Imagem, link e parágrafo</h2>
         <!-- tags de imagem -->
         <img src="https://www.petz.com.br/blog/wp-content/uploads/2020/04/diferenca-entre-aves-e-passaros.jpg" alt="transcrição da imagem">
         <a href="https://uol.com.br" target="_blank">Link para noticia</a> <!-- tag de âncora -->
         <a href="alguma">Link para notícia</a>
-    </section>
-    <section>
+        <p>No mundo atual, a valorização de fatores subjetivos desafia a
+            capacidade de equalização das diversas correntes de pensamento.
+           <a href=""> Para saber mais sobre o mundo atual, clique aqui</a></p>
+    <section class="modelo">
+        <h2>Listas e âncora</h2>
         <!-- listas ordenadas -->
         <ol>
             <li>Gato</li>
@@ -51,9 +103,12 @@
             <li>Cachorro</li>
             <li>Cobra</li> 
         </ul>
+        <a href="#titulo">Link âncora voltar ao topo</a>
     </section>
-    <article>
+    <article class="modelo">
+        <h2>Subtítulo</h2>
         <!-- conteúdo contido em si; direciona para outra área -->
+        <button id="bt_teste">Teste</button>
     </article>
     <nav>
         <!-- área de navegação (menu) -->
@@ -64,5 +119,6 @@
     <footer>
         <!-- rodapé -->
     </footer>
+    <script src=""></script>
 </body>
 </html>
