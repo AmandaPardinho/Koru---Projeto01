@@ -54,6 +54,9 @@
             width: 100%;
         }
     </style>
+    <!--<script src="" defer></script> => Carregamento de arquivo externo
+        defer: carrega o arquivo em paralelo ao HTML
+    -->
 </head>
 <body>
     <!-- conteúdo que será visível para o usuário -->
@@ -119,6 +122,90 @@
     <footer>
         <!-- rodapé -->
     </footer>
-    <script src=""></script>
+    <!--<script></script> => script feito na própria página-->
+    <script>
+        //Comentário em linha
+        /*Comentário
+        em
+        Bloco*/
+
+        var idade = 31; //tipo número
+        var altura = 1.60; //número flutuante
+
+        var nome = "Amanda"; //String
+        var sobrenome = "Pardinho"
+
+        /*operadores aritméticos
+            +
+            -
+            *
+            /
+        */
+
+        console.log(idade + altura);
+
+        //concatenação
+        console.log(idade + " " + nome);
+        nome += " " + sobrenome;
+
+        //boolean
+        var x = true;
+        var y = false;
+
+        //objeto
+        var aluno = {nome: "Amanda", sobrenome: "Pardinho", status: true, curso = {nome: "Front-end", turma: "123", inicio: "20/03/2023"}};
+        console.log(aluno);
+        console.log(aluno.nome);
+        console.log(aluno.curso.nome);
+
+        //array => lista de itens para armazenar vários valores
+        var disciplinas = ["Front-end", "UX/UI", "Back-end", 789, ["A", "B", "C"]];
+        console.log(disciplinas);
+        console.log(disciplinas[0]);
+        console.log(disciplinas[4][2]);
+
+        disciplinas[0] = "Protótipo";
+        console.log(disciplinas[0]);
+
+        //tipos de variáveis
+        var nome; //pode mudar de valor; variável global
+        let nome; /*pode mudar de valor; 
+                    não pode ser redeclarada; 
+                    não pode ser usada fora do escopo em que foi criada (variável local)
+                  */
+        const nome = "A"; //não permite mudança de valor
+
+        //blocos de controle ou de construção
+            /*operadores de condição:
+                >
+                <
+                >=
+                <=
+                !=
+                == (igual)
+                === (compara o valor das variáveis e do tipo de entrada (data type))
+                ! (negação)
+            */
+        var a = 5;
+        if(a > 5){
+
+        }else if(a < 5){
+
+        }else{
+
+        }
+
+            //operador ternário
+            var hora = 20;
+            var status = hora > 18 ? "noite" : "dia";
+            var status = (condicao) ? true : false;
+        
+        //loop c=> repetição 
+        for (let index = 0; index < array.length; index++) {
+            const element = array[index];
+            
+        }
+
+    </script>
 </body>
 </html>
