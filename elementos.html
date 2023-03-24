@@ -154,7 +154,7 @@
         var y = false;
 
         //objeto
-        var aluno = {nome: "Amanda", sobrenome: "Pardinho", status: true, curso = {nome: "Front-end", turma: "123", inicio: "20/03/2023"}};
+        var aluno = {nome: "Amanda", sobrenome: "Pardinho", status: true, curso: {nome: "Front-end", turma: "123", inicio: "20/03/2023"}};
         console.log(aluno);
         console.log(aluno.nome);
         console.log(aluno.curso.nome);
@@ -169,11 +169,11 @@
         console.log(disciplinas[0]);
 
         //tipos de variáveis
-        var nome; //pode mudar de valor; variável global
-        let nome; /*pode mudar de valor; 
-                    não pode ser redeclarada; 
-                    não pode ser usada fora do escopo em que foi criada (variável local)
-                  */
+        var nome = "Amanda"; //pode mudar de valor; variável global
+        let nome = "Amanda";  /*pode mudar de valor; 
+                                não pode ser redeclarada; 
+                                não pode ser usada fora do escopo em que foi criada (variável local)
+                                */
         const nome = "A"; //não permite mudança de valor
 
         //blocos de controle ou de construção
@@ -204,7 +204,7 @@
         //loop c=> repetição 
         for (let index = 0; index < array.length; index++) {
             const element = array[index];
-            
+            console.log()
         }
 
     </script>
