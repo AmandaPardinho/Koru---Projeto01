@@ -1,4 +1,4 @@
-/*elemento com a tag*/
+/*seletor de elemento com a tag*/
 body{
 
 }
@@ -7,12 +7,12 @@ h1{
 
 }
 
-/*elemento com id*/
+/*seletor de elemento com id*/
 #alguma{
 
 }
 
-/*elemento com class*/
+/*seletor de elemento com class*/
 .modelo{
     
 }
