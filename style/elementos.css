@@ -34,3 +34,14 @@ h1#alguma{
 .modelo.destaque{
 
 }
+
+/*seletor de atributos html*/
+a[target="_blank"]{ /* = => que seja igual*/
+
+}
+a[href^="https"]{ /* ^ => começa com */
+
+}
+a[href~="https"]{ /* ~ => caso contenha*/
+
+}
