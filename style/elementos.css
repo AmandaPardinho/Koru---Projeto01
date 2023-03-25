@@ -5,7 +5,12 @@ body{
 }
 
 h1{
+    color: white;
+}
 
+/*seletor de elemento com tag e id => tem importância máxima*/
+h1#alguma{
+    color: red;
 }
 
 /*seletor de elemento com id*/
@@ -18,4 +23,14 @@ h1{
 /*é possível estilizar vários elementos com a mesma classe*/
 .modelo{
     
+}
+
+/*selecionar elemento dentro de hierarquia*/
+.modelo h1{
+    color: blue;
+}
+
+/*seletor de elemento com mais de uma classe(para diferenciar)*/
+.modelo.destaque{
+
 }
