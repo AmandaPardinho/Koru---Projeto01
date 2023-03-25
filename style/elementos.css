@@ -1,4 +1,5 @@
 /*seletor de elemento com a tag*/
+/*quanto mais específico um seletor, maior a sua importância*/
 body{
 
 }
@@ -8,11 +9,13 @@ h1{
 }
 
 /*seletor de elemento com id*/
+/*só é possível estilizar um único elemento com o id*/
 #alguma{
 
 }
 
 /*seletor de elemento com class*/
+/*é possível estilizar vários elementos com a mesma classe*/
 .modelo{
     
 }
