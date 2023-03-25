@@ -1,5 +1,23 @@
 h1{
     color: #292929;
     font-size: 28px;
+}
 
+p{
+    font-size: 14px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none; /*tirar estilizações do link*/
+}
+
+section{
+    background-color: #cacaca;
+    height: 400px;
+    width: 100%;
+    max-width: 800px;
+    min-width: 300px;
+    padding: 20px;
 }
