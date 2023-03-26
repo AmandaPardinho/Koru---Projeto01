@@ -11,6 +11,7 @@ h1{
     color: #292929;
     font-size: 28px;
     background-color: red;
+    display: inline;
 }
 
 h2{
@@ -25,6 +26,12 @@ p{
 
 a{
     text-decoration: none; /*tirar estilizações do link*/
+    background-color: red;
+    /*por padrão, é display inline*/
+    display: inline-block;
+    width: 300px;
+    height: 90px;
+
 }
 
 section{
@@ -39,4 +46,6 @@ section{
 
 /*display inline => o elemento ocupa somente o tamanho que ele precisa*/
 /*display block => o elemento vai ocupar todo o espaço disponível (largura), mesmo que não precise*/
-/**/
+/*display inline-block => se comporta como o display inline, mas é possível configurar seu tamanho*/
+/*display none: tirar a visibilidade do elemento*/
+
