@@ -1,6 +1,20 @@
+*{
+    box-sizing: border-box; /*já inclui o padding na conta do tamanho (width e height) do elemento*/
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
 h1{
     color: #292929;
     font-size: 28px;
+    background-color: red;
+}
+
+h2{
+    background-color: purple;
 }
 
 p{
@@ -19,5 +33,10 @@ section{
     width: 100%;
     max-width: 800px;
     min-width: 300px;
-    padding: 20px;
+    padding: 20px; /*espaçamento interno*/
+    margin: 40px 20px; /*espaçamento externo*/
 }
+
+/*display inline => o elemento ocupa somente o tamanho que ele precisa*/
+/*display block => o elemento vai ocupar todo o espaço disponível (largura), mesmo que não precise*/
+/**/
